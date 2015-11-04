@@ -30,8 +30,8 @@ and cmnt.txt figured out by step 4 ,when finish it,just run the train.sh
 
 
 
-the context above the line below is added by Jianbo Tang,
-and those below it is the original README.md from the lisa Lab.
+the context above is added by Jianbo Tang,
+and those below is the original README.md from the lisa Lab.
 
 
 GroundHog by lisa-groundhog
