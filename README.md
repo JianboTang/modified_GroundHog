@@ -1,3 +1,40 @@
+feel free to email me if you encounter any problems when use this programme Modified_GroundHog
+and my email is tangjianbo2014@ia.ac.cn
+
+forgive me if something is depicted unclearly,because it's my first time to write
+a readme.txt in a foreign language.
+
+next,we will illustrate  how to launch a process of this programme.
+
+1)the file config.init includes the aboslute path of this folder,so you should change it.
+
+2)you should take a copy of the folder fork_process with some other name like process1,
+and change the process_id included in process1/localConfig.init as process1
+
+3)rename your post date as post.txt,response data as cmnt.txt and place them in dataPreprocess/usd/train if you
+want to use them as training data.as for testing data,something like that.
+
+4)use the preprocess.sh to count words in your training data,then 
+replace the responding number in the preprocess.sh,sh delete.sh to delete the wrong files produced just now,
+then run preprocess.sh again to generate the correct file.
+
+finally,replace the Line 238,239,259,260 in experimnet/nmt/state.py with the amount of unique words in post.txt 
+and cmnt.txt figured out by step 4 ,when finish it,just run the train.sh
+
+
+
+
+
+
+
+
+
+
+the context above the line below is added by Jianbo Tang,
+and those below it is the original README.md from the lisa Lab.
+===========================
+
+
 GroundHog by lisa-groundhog
 ===========================
 
