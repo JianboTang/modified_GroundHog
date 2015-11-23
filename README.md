@@ -8,7 +8,7 @@ next,we will illustrate  how to launch a process of this programme.
 
 1)the file config.init includes the aboslute path of this folder,so you should change it.
 
-2)you should take a copy of the folder fork_process with some other name like process1,
+2)you should take a copy of the folder fork_process and name it with some other id like process1,
 and replace the process_id included in process1/localConfig.init with process1
 
 3)rename your post date as post.txt,response data as cmnt.txt and place them in dataPreprocess/usd/train if you
